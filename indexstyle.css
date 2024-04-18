@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+.container > .navbar1 > i{
+    position: relative;
+    right: 50px;
+}
+.container{
+    position: static;
+}
+.navbar1{
+    flex-direction: row;
+    margin-left: 80px;
+}
+input{
+    border: 1px solid black;
+    margin-left: 30px;
+    padding-left: 15px;
+    padding-right: 450px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    border-radius: 40px;
+    background-color: white;
+    color:darkgrey;
+    font-size: 16px;
+}
+.navbar2{
+    display: inline-block;
+    padding: 30px;
+}
+i{
+    padding: 10px;
+}
+.navbar3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 270px;
+    margin-right: 270px;
+    padding: 40px;
+    padding: 1px  90px 5px 40px;
+    font-size: 13px;
+}
+p{
+    padding: 10px;
+}
+.cakes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 30px 0px 30px;    
+}
+.img1{
+    display: inline-block;
+    flex-grow: 1;
+}
+.img2{
+    display: inline-block;
+    flex-grow: 1;
+}
+.img3{
+    display: inline-block;
+    flex-grow: 1;
+}
+.img4{
+    display: inline-block;
+    flex-grow: 1;
+}
+.img5{
+    display: inline-block;
+    flex-grow: 1;
+}
+.img6{
+    display: inline-block;
+    flex-grow: 1;
+}
+.img7{
+    display: inline-block;
+    flex-grow: 1;
+}
+.img8{
+    display: inline-block;
+    flex-grow: 1;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:5px 30px 0px 20px;
+    color: rgb(240, 54, 54);
+    font-size: 11px;    
+    margin-left: 4px;
+}
+.name1{
+    display: inline-block;
+    flex-grow: 1;
+}
+.name2{
+    display: inline-block;
+    flex-grow: 1;
+}
+.name3{
+    display: inline-block;
+    flex-grow: 1;
+}
+.name4{
+    display: inline-block;
+    flex-grow: 1;
+}
+.name5{
+    display: inline-block;
+    flex-grow: 1;
+}
+.name6{
+    display: inline-block;
+    flex-grow: 1;
+}
+.name7{
+    display: inline-block;
+    flex-grow: 1;
+}
+.name8{
+    display: inline-block;
+    flex-grow: 1;
+}
+h1{
+    text-align: center;
+    padding: 50px 0px 0px 30px;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(240, 54, 54) ;
+}
+h3{
+   font-size: large;
+   padding: 20px; 
+}
+
+.lists > p{
+    color:grey;
+    font-size: 14px;
+    font-weight: 20px;
+}
+a{
+    text-decoration: none;
+    color:rgb(240, 54, 54) ;
+}
+
+footer{
+    display: flex;
+    list-style: none;
+    line-height: 40px;
+    font-size: 13px;
+    padding: 40px;
+    color: grey;
+}
+.footer1{
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+.footer2{
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+.footer3{
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+.footer4{
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+.footer5{
+    flex-wrap: wrap;
+}
+.fimg{
+    position: relative;
+    left: 4px;
+}
+li:hover{
+    color: rgb(240, 54, 54) ;
+}
+i:hover{
+    color: rgb(240, 54, 54) ;
+}
+.box > img{
+    height: 10px;
+}
+.box{
+    display: flex;
+    font-size: 13px;
+    padding: 20px;
+    justify-content: center;
+}
+.box1{
+    border: 1px solid grey;
+    box-shadow: 0px 2px 5px 5px grey;
+    padding: 10px;
+    margin: 12px;
+}
+.box2{
+    border: 1px solid grey;
+    box-shadow: 0px 2px 5px 5px grey;
+    padding: 10px;
+    margin: 12px;
+}
+.box3{
+    border: 1px solid grey;
+    box-shadow: 0px 2px 5px 5px grey;
+    padding: 10px;
+    margin: 12px;
+}
+.box4{
+    border: 1px solid grey;
+    box-shadow: 0px 2px 5px 5px grey;
+    padding: 10px;
+    margin: 12px;
+}
+.box5{
+    border: 1px solid grey;
+    box-shadow: 0px 2px 5px 5px grey;
+    padding: 10px;
+    margin: 12px;
+}
+.secondbox{
+    display: flex;
+    font-size: 13px;
+    padding: 20px;
+    justify-content: center;
+    
+}
+.thirdbox >img{
+    height: 150px;
+    width: 150px;
+    padding: 3px;
+    border-radius: 20px;
+}
+.thirdbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fourthboxa>img{
+    height: 300px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin: 15px;
+}
+
+.fourthboxa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+   
+.fourthboxb>img{
+    height: 300px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin: 15px;
+}
+
+.fourthboxb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.fifthboxa>img{
+    height: 300px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin: 15px;
+}
+
+.fifthboxa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.fifthboxb>img{
+    height: 300px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin: 15px;
+}
+
+.fifthboxb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.sixthboxa>img{
+    height: 300px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin: 15px;
+}
+
+.sixthboxa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.sixthboxb>img{
+    height: 300px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin: 15px;
+}
+
+.sixthboxb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+button{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    color:  rgb(240, 54, 54);
+    font-size: large;
+    border: 2px solid rgb(240, 54, 54);
+    background-color: white;
+}
+button:hover{
+    color: white;
+    background-color:rgb(240, 54, 54) ;
+}
+.card1{
+    display: flex;
+    background-color:rgb(243, 235, 235);
+    height: 22px;
+    width: 1240px;
+    opacity: 0.5;
+    position: absolute;
+    left: 55px;
+    top: 2042px;
+    
+}
+.card1>p{
+    text-align: center;
+    display: flex;
+    color: black;
+    z-index: 2;
+    font-size: large;
+    position: relative;
+    left: 100px;
+}
+.c1{
+    position: relative;
+    left: 300px;
+}
+.c2{
+    flex-grow: 1;
+}
+.c3{
+    flex-grow: 1;
+}
+.c4{
+    flex-grow: 1;
+}
+.c5{
+    flex-grow: 1;
+}
+.c6{
+    flex-grow: 1;
+}
+.c7{
+    flex-grow: 1;
+}
+.c8{
+    flex-grow: 1;
+}
+.card2>p{
+    text-align: center;
+    display: flex;
+    color: black;
+    font-size: large;
+    position: relative;
+    left: 100px;
+}
+.card2{
+    display: flex;
+    background-color:brown(243, 235, 235);
+    height: 22px;
+    width: 1240px;
+    opacity: 0.5;
+    position: absolute;
+    left: 55px;
+    top: 2042px;
+    }
+.fourthboxa>img:hover{
+    opacity: 0.6;
+}
+.fourthboxb>img:hover{
+    opacity: 0.6;
+}
+.fifthboxa>img:hover{
+    opacity: 0.6;
+}
+.fifthboxb>img:hover{
+    opacity: 0.6;
+}
+.sixthboxa>img:hover{
+    opacity: 0.6;
+}
+.sixthboxb>img:hover{
+    opacity: 0.6;
+}
+li{
+    list-style: none;
+}
+
+.abc A .menu1 ul li h6{
+    padding: 10px;
+    line-height: 25px;
+    display: block;
+    position: absolute;
+    left: 250px;
+    top: 130px;
+    font-size: 15px;
+    background-color:white;
+    color: rgb(148, 131, 131);
+    min-width: 200px;
+    z-index: 1; 
+}
+.menu1{
+    display: none;
+}
+.A:hover .abc A .menu1 ul li h6{
+    display: block;
+}
+
+
+/*.menu1 li{
+    padding: 10px;
+    display: block;
+    position: absolute;
+    left: 250px;
+    top: 130px;
+    font-size: 15px;
+    background-color:white;
+    color: rgb(148, 131, 131);
+    min-width: 180px;
+    z-index: 1;
+}
+
+.menu1 li:hover{
+    background-color: rgb(212, 205, 205);
+    color: black;
+}
+.a:hover.menu1{
+    display: block;
+}
+.menu2{
+    display: none;
+    position: absolute;
+    left: 250px;
+    top: 130px;
+    font-size: 15px;
+    background-color:white;
+    color: rgb(148, 131, 131);
+    min-width: 180px;
+    z-index: 1;
+}
+.menu2 li{
+    padding: 10px;
+    display: block;
+}
+.menu2 li:hover{
+    background-color: rgb(212, 205, 205);
+    color: black;
+}
+.b:hover.menu2{
+    display: block;
+}
+.menu3{
+    display: none;
+    position: absolute;
+    left: 250px;
+    top: 130px;
+    font-size: 15px;
+    background-color:white;
+    color: rgb(148, 131, 131);
+    min-width: 180px;
+    z-index: 1;
+}
+.menu3 li{
+    padding: 10px;
+    display: block;
+}
+.menu3 li:hover{
+    background-color: rgb(212, 205, 205);
+    color: black;
+}
+.d:hover.menu3{
+    display: block;
+}
+.menu4{
+    display: none;
+    position: absolute;
+    left: 250px;
+    top: 130px;
+    font-size: 15px;
+    background-color:white;
+    color: rgb(148, 131, 131);
+    min-width: 180px;
+    z-index: 1;
+}
+.menu4 li{
+    padding: 10px;
+    display: block;
+}
+.menu4 li:hover{
+    background-color: rgb(212, 205, 205);
+    color: black;
+}
+.e:hover.menu4{
+    display: block;
+}
+.menu5{
+    display: none;
+    position: absolute;
+    left: 250px;
+    top: 130px;
+    font-size: 15px;
+    background-color:white;
+    color: rgb(148, 131, 131);
+    min-width: 180px;
+    z-index: 1;
+}
+.menu5 li{
+    padding: 10px;
+    display: block;
+}
+.menu5 li:hover{
+    background-color: rgb(212, 205, 205);
+    color: black;
+}
+.f:hover.menu5{
+    display: block;
+}*/
